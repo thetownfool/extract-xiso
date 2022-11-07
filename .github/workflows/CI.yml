@@ -62,7 +62,7 @@ jobs:
         path: artifacts
 
   build-linux:
-    runs-on: ubuntu-latest
+    runs-on: 32bit/ubuntu-latest
     needs: Init
     steps:
     - uses: actions/checkout@v2
